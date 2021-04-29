@@ -1,7 +1,12 @@
 # Sorting Algorithm Visualizer 
+
+![_SAV performing bubble sort_](https://lh4.googleusercontent.com/ejSdHcOHsJZ_TG7QNY7ir3I_iGNC1rhRTSRzLHB8C3dqZ261BhH40gXiSseSil5O1-Kd3eSEQtMveA=w1920-h966)
+
 #### What are sorting algorithms and why are they important? 
 A sorting algorithm is a method for reorganizing many items into a specific order, such as alphabetical, highest-to-lowest value or shortest-to-longest. We need these algorithms in programming because sorting a list of items can take a long time, especially if it is a large list. A computer program can be created to do this, making sorting a list of data much easier and quicker. 
-## Sorting Algorithms supported so far
+
+## Sorting Algorithms Currently Supported 
+
 #### Bubble Sort
 Bubble sort, sometimes referred to as sinking sort, is a simple sorting algorithm that repeatedly steps through the list in order to sort it. This algorithm compares each pair of adjacent items and swaps them if they are in the wrong order. The pass through the list is repeated until no swaps are needed, which indicates that the list is sorted.
 
@@ -26,9 +31,9 @@ Time/space complexity analysis:
 |O(n log(n))|Θ(n log(n))|Ω(n log(n))|Yes|
 
 #### Quick Sort
-Quicksort (sometimes called partition-exchange sort) is an efficient sorting algorithm, serving as a systematic method for placing the elements of an array in order. When implemented well, it can be about two or three times faster than its main competitors, merge sort and heapsort.
+Quicksort is an efficient sorting algorithm, serving as a systematic method for placing the elements of an array in order. **When implemented well**, it can be about two or three times faster than its main competitors, merge sort and heapsort.
 
-Quicksort is a comparison sort, meaning that it can sort items of any type for which a "less-than" relation (formally, a total order) is defined. In efficient implementations it is not a stable sort, meaning that the relative order of equal sort items is not preserved. Quicksort can operate in-place on an array, requiring small additional amounts of memory to perform the sorting. It is very similar to selection sort, except that it does not always choose worst-case partition.
+Quicksort is a comparison sort, meaning that it can sort items of any type for which a "less-than" relation (formally, a total order) is defined. 
 
 Time/space complexity analysis:
 
@@ -36,6 +41,9 @@ Time/space complexity analysis:
 |---|---|---|---|
 |O(n<sup>2</sup>)|Θ(n log(n))|Ω(n log(n))|Yes|
 
-##### How to run this on your own computer 
+### How to run this App on your own computer 
 First, download the UI, BubbleSort, MergeSort and QuickSort file and place them in the same folder. Next, you will be able to run the UI file which will launch the app. 
 
+## Time Complexity Graphs
+
+![](https://lh4.googleusercontent.com/dVPEndmxV0EX7CXbDU4GthbiSIBv0N7Q3VH0Xek4x58RXL9jG6r3uav-dYKVZ1NMIC5yxg8R0x06nA=w1920-h966) 
