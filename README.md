@@ -41,9 +41,15 @@ Time/space complexity analysis:
 |---|---|---|---|
 |O(n<sup>2</sup>)|Θ(n log(n))|Ω(n log(n))|Yes|
 
-### How to run this App on your own computer 
-First, download the UI, BubbleSort, MergeSort and QuickSort file and place them in the same folder. Next, you will be able to run the UI file which will launch the app. 
+## How to run this App on your own computer 
+First, download the following files:
+* UI
+* BubbleSort
+* MergeSort
+* QuickSort 
+
+After placing these files in the same folder, simply run UI which will launch the app. 
 
 ## Time Complexity Graphs
 
-![](https://lh4.googleusercontent.com/dVPEndmxV0EX7CXbDU4GthbiSIBv0N7Q3VH0Xek4x58RXL9jG6r3uav-dYKVZ1NMIC5yxg8R0x06nA=w1920-h966) 
+![datasize vs time](https://lh4.googleusercontent.com/dVPEndmxV0EX7CXbDU4GthbiSIBv0N7Q3VH0Xek4x58RXL9jG6r3uav-dYKVZ1NMIC5yxg8R0x06nA=w1920-h966) 
