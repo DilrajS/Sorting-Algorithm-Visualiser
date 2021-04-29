@@ -28,7 +28,7 @@ Time/space complexity analysis:
 
 |Worst Case|Average Case|Best Case|In-place?|
 |---|---|---|---|
-|O(n log(n))|Θ(n log(n))|Ω(n log(n))|Yes|
+|O(n log(n))|Θ(n log(n))|Ω(n log(n))|No|
 
 #### Quick Sort
 Quicksort is an efficient sorting algorithm, serving as a systematic method for placing the elements of an array in order. **When implemented well**, it can be about two or three times faster than its main competitors, merge sort and heapsort.
