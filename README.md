@@ -1,55 +1,62 @@
-# Sorting Algorithm Visualizer 
+# Sorting Algorithm Visualizer
 
-![_SAV performing bubble sort_](images/SortGIF.gif)
+![SortGIF](images/SortGIF.gif)
 
-#### What are sorting algorithms and why are they important? 
-A sorting algorithm is a method for reorganizing many items into a specific order, such as alphabetical, highest-to-lowest value or shortest-to-longest. We need these algorithms in programming because sorting a list of items can take a long time, especially if it is a large list. A computer program can be created to do this, making sorting a list of data much easier and quicker. 
+## Introduction
 
-## Sorting Algorithms Currently Supported 
+Sorting Algorithm Visualizer is a Python-based project that allows you to observe and understand how various sorting algorithms function. Sorting algorithms are essential in programming as they help reorganize data efficiently, whether it's sorting items alphabetically, by value, or length. This project aims to make sorting large lists more accessible and faster through computer program implementations of these algorithms.
 
-#### Bubble Sort
-Bubble sort, sometimes referred to as sinking sort, is a simple sorting algorithm that repeatedly steps through the list in order to sort it. This algorithm compares each pair of adjacent items and swaps them if they are in the wrong order. The pass through the list is repeated until no swaps are needed, which indicates that the list is sorted.
+## Supported Sorting Algorithms
 
-This algorithm is simple but it is too slow and impractical for most problems even when compared to Python’s built-in sort() function. Bubble sort can be practical if the input is in mostly sorted order or the input is small.
+### Bubble Sort
+Bubble Sort, also known as sinking sort, is a straightforward sorting algorithm that repeatedly traverses the list to sort it. It compares each adjacent pair of items and swaps them if they are in the wrong order. The process continues until the list is fully sorted.
 
-Time/space complexity analysis:
+While simple, Bubble Sort is not practical for most problems, especially when compared to Python's built-in sort() function. However, it can be useful when dealing with mostly sorted input or small datasets.
+
+**Time/Space Complexity Analysis**:
 
 |Worst Case|Average Case|Best Case|In-place?|
 |---|---|---|---|
 |O(n<sup>2</sup>)|Θ(n<sup>2</sup>)|Ω(n)|Yes|
 
-_in-place means that the algorithm does not use extra space for manipulating the input but may require a small though nonconstant extra space for its operation._
-#### Merge Sort
-Merge sort is a much faster and more efficient algorithm than Bubble sort. Merge sort is a divide and conquer algorithm. Conceptually, a merge sort works as follows:
-•	Divide the unsorted list into n sub-lists, each containing one element (a list of one element is considered sorted).
-•	Repeatedly merge sub-lists to produce new sorted sub-lists until there is only one sub-list remaining. This will be the sorted list.
+_In-place means that the algorithm manipulates the input list without using extra space, but it may require a small, non-constant extra space for its operation._
 
-Time/space complexity analysis:
+### Merge Sort
+Merge Sort is a faster and more efficient algorithm compared to Bubble Sort. It follows a divide and conquer approach:
+
+1. Divide the unsorted list into n sub-lists, each containing one element (a list of one element is considered sorted).
+2. Repeatedly merge the sub-lists to produce new sorted sub-lists until only one sub-list remains. This final sub-list will be the sorted list.
+
+**Time/Space Complexity Analysis**:
+
+
 
 |Worst Case|Average Case|Best Case|In-place?|
 |---|---|---|---|
 |O(n log(n))|Θ(n log(n))|Ω(n log(n))|No|
 
-#### Quick Sort
-Quicksort is an efficient sorting algorithm, serving as a systematic method for placing the elements of an array in order. **When implemented well**, it can be about two or three times faster than its main competitors, merge sort and heapsort.
 
-Quicksort is a comparison sort, meaning that it can sort items of any type for which a "less-than" relation (formally, a total order) is defined. 
+### Quick Sort
+Quick Sort is an efficient sorting algorithm and can be about two or three times faster than other competitors like merge sort and heapsort, **when implemented well**. It is a comparison sort, which means it can sort items of any type as long as a "less-than" relation (a total order) is defined for them.
 
-Time/space complexity analysis:
+**Time/Space Complexity Analysis**:
+
 
 |Worst Case|Average Case|Best Case|In-Place?|
 |---|---|---|---|
 |O(n<sup>2</sup>)|Θ(n log(n))|Ω(n log(n))|Yes|
 
-## How to run this App on your own computer 
-First, download the following files:
-* UI
-* BubbleSort
-* MergeSort
-* QuickSort 
 
-After placing these files in the same folder, simply run UI which will launch the app. 
+## How to Run the App
+
+To run this app on your own computer, follow these steps:
+
+1. Download the following files: UI, BubbleSort, MergeSort, QuickSort.
+2. Place all downloaded files in the same folder.
+3. Run the "UI" file, which will launch the sorting algorithm visualizer app.
 
 ## Time Complexity Graphs
 
-![datasize vs time](images/BigO.png) 
+![datasize vs time](images/BigO.png)
+
+Feel free to explore the project, visualize different sorting algorithms, and deepen your understanding of how they work!
