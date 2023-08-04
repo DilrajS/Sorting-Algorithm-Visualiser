@@ -29,27 +29,22 @@ Merge Sort is a faster and more efficient algorithm compared to Bubble Sort. It 
 
 **Time/Space Complexity Analysis**:
 
-
-
 |Worst Case|Average Case|Best Case|In-place?|
 |---|---|---|---|
 |O(n log(n))|Θ(n log(n))|Ω(n log(n))|No|
-
 
 ### Quick Sort
 Quick Sort is an efficient sorting algorithm and can be about two or three times faster than other competitors like merge sort and heapsort, **when implemented well**. It is a comparison sort, which means it can sort items of any type as long as a "less-than" relation (a total order) is defined for them.
 
 **Time/Space Complexity Analysis**:
 
-
 |Worst Case|Average Case|Best Case|In-Place?|
 |---|---|---|---|
 |O(n<sup>2</sup>)|Θ(n log(n))|Ω(n log(n))|Yes|
 
-
 ## How to Run the App
 
-To run this app on your own computer, follow these steps:
+To run this app on your computer, follow these steps:
 
 1. Download the following files: UI, BubbleSort, MergeSort, QuickSort.
 2. Place all downloaded files in the same folder.
@@ -58,5 +53,15 @@ To run this app on your own computer, follow these steps:
 ## Time Complexity Graphs
 
 ![datasize vs time](images/BigO.png)
+
+## Updates
+
+- Improved the user interface for a more professional look and better user experience.
+- Added step-by-step instructions to guide users through the process of choosing an algorithm, generating data, and running the algorithm.
+- Implemented the option to select different speed settings for sorting animation.
+- Removed the settings icon and made the UI cleaner and more focused on the sorting visualization.
+
+## Future Updates
+- Will fix freezing issues during the sorting process by running the algorithm with a slight delay using the `after()` method.
 
 Feel free to explore the project, visualize different sorting algorithms, and deepen your understanding of how they work!
